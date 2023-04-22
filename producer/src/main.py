@@ -3,10 +3,10 @@ import random
 
 def main(number_of_readings):
     # emit these log readings to kafka
-    i=1
-    while i<=number_of_readings:
+    iterator=1
+    while iterator<=number_of_readings:
         logger.info('reading:' + str(random.random()))
-        i = i + 1
+        iterator = iterator + 1
 
 
 def setup_logging():
