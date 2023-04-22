@@ -1,0 +1,15 @@
+[[package]]
+name = "logging"
+version = "0.4.9.6"
+description = "A logging module for Python"
+category = "main"
+optional = false
+python-versions = "*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "39959ea9e1a05d6d75b28a76d61e8dfe227ab56a00aa34db43f5473d314209fa"
+
+[metadata.files]
+logging = []
